@@ -1,0 +1,3 @@
+com/example/loan/unit/ScheduleCalculatorTest.class
+com/example/loan/integration/LoanFlowIntegrationTest.class
+com/example/loan/unit/PaymentAllocationTest.class
