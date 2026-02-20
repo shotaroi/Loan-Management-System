@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:15432/loan_management
+    username: loan_user
+    password: loan_secret
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    com.shotaroi.loan: DEBUG
